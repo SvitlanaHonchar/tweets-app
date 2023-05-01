@@ -7,8 +7,6 @@ export const StyledDiv = styled.div`
   justify-content: flex-end;
 
   position: relative;
-  top: 100px;
-  left: 100px;
 
   width: 380px;
   height: 460px;
