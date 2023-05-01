@@ -3,6 +3,7 @@ import "./App.css";
 import { useEffect } from "react";
 import { fetchUsers } from "./redux/usersSlice";
 import TweetsList from "./components/TweetsList/TweetsList";
+import Footer from "./components/Footer/Footer";
 
 function App() {
   const dispatch = useDispatch();
@@ -17,7 +18,7 @@ function App() {
       <main>
         <TweetsList />
       </main>
-      {/* <footer></footer> */}
+      <Footer />
     </div>
   );
 }

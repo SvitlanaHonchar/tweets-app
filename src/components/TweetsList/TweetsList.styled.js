@@ -4,6 +4,7 @@ export const StyledUl = styled.ul`
   margin-top: 36px;
   margin-left: auto;
   margin-right: auto;
+  margin-bottom: 36px;
 
   display: flex;
   flex-wrap: wrap;
@@ -12,7 +13,7 @@ export const StyledUl = styled.ul`
 `;
 
 export const StyledBtn = styled.button`
-  margin-top: 36px;
+  /* margin-top: 36px; */
   margin-bottom: 36px;
   padding: 14px 56px;
 
